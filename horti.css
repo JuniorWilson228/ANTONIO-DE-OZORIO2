@@ -1,0 +1,299 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f84a00;
+   
+}
+
+
+
+/* From Uiverse.io by alexruix */ 
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    top: 3px;
+    max-width: 190px;
+
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #074d02;
+    color: #ffffff;
+    transition: .3s ease;
+
+
+   }
+   
+   .input::placeholder {
+    color: #ffffff;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgb(10, 85, 0);
+    background-color: #0ba200;
+    box-shadow: 0 0 0 4px rgba(43, 178, 25, 0.733);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #ffffff;
+    width: 1rem;
+    height: 1rem;
+   }   
+
+
+
+.animar{
+background: color #d2d2d2;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 2px 5px #00ff04;
+cursor:pointer;
+transition: transforn 0.2s ease-in-out; 
+}
+
+.container{
+display: flex;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+justify-content: center;
+margin-top: 20px;
+background-color: #074d02;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px #ffffff;
+}
+
+.produto{
+margin: 20px;
+text-align: center;
+color:#d2d2d2;
+}
+.produto img{
+width: 200px;
+height: 200px;
+object-fit: cover;
+}
+.preço{
+text-align: center;
+box-shadow: 0 2px 5px #d2d2d2;
+cursor:pointer;
+font-size: 1.2em;
+color: #d2d2d2;
+}
+.BT{
+    padding: 13px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #074d02;
+    color: #f84a00;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    transform: translateY(136%);
+}
+.PQS{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: #074d02;
+    border-radius: 5px 0 0 5px;
+    position: absolute;
+    top: 10%;
+    right: 100px;
+    transform: translateY(135%);
+}
+
+header {
+    background-color: #074d02;
+    color: #fc6829;
+    padding: 15px 0;
+    text-align: center;
+}
+nav {
+    background-color: #f84a00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+section {
+    padding: 20px;
+    color:#fff;
+    background-color: #074d02;
+}
+footer {
+    background-color: #074d02;
+    color: #ffffff;
+    padding: 0px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ffffff;
+}
+.navbar {
+    background-color: #f84a00;
+    overflow: hidden;
+  
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #074d02;
+    color: #fff;
+    border-radius: 10px;
+   
+}
+.cor{
+    color:#f84a00
+}
+.esqu{
+    position: relative;
+    left: 705px;
+    top: 25px;
+}
+  /* Estilo do Rodapé */
+  .foot  {
+    background-color: #333;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    color: #ffffff;
+  }
+ 
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-section p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f0a500;
+  }
+  
+  /* Estilo das redes sociais */
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .social-icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-icons li a:hover {
+    color: #f0a500;
+  }
+  
+  /* Rodapé inferior */
+  .footer-bottom {
+    background-color: #222;
+    padding: 20px;
+    font-size: 12px;
+    color: #bbb;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  .navDAR {
+    background-color: #074d02;
+    overflow: hidden;
+  
+}
+
+.navDAR a {
+  float: center;
+    display: block;
+    color: #f84a00;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navDAR a:hover {
+    background-color: #f84a00;
+    color: #ffffff;
+    border-radius: 10px;
+   
+}
+.animar1{
+  background: color #d2d2d2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px #ffffff;
+  cursor:pointer;
+  transition: transforn 0.2s ease-in-out; 
+  }
